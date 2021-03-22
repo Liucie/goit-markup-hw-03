@@ -6,6 +6,7 @@
   --button-bg-color: #f5f4fa;
   --dark-bg-color: #2f303a;
   --light-text-color: #ffffff;
+  --primary-bg-color: #ffffff;
 }
 
 body {
@@ -141,8 +142,6 @@ img {
   background-color: var(--dark-bg-color);
 }
 .hero .container {
-  /*padding-top: 200px;
-  padding-bottom: 200px;*/
   padding: 200px 237px;
 
   text-align: center;
@@ -161,6 +160,7 @@ img {
   width: 200px;
   height: 50px;
   border-radius: 4px;
+  padding: 10px 32px;
 
   font-family: inherit;
   font-weight: 700;
@@ -238,6 +238,9 @@ img {
 }
 .team-list-item {
   border-radius: 0px 0px 4px 4px;
+  padding-bottom: 30px;
+
+  background-color: var(--primary-bg-color);
 }
 .team-member {
   margin-top: 30px;
@@ -247,7 +250,6 @@ img {
   font-size: inherit;
 }
 .team-member-position {
-  margin-bottom: 30px;
   color: #757575;
   text-align: inherit;
 }
